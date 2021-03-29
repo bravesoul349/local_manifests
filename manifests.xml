@@ -5,7 +5,9 @@
            fetch="https://github.com/bravesoul349"
            revision="refs/heads/evo-elle" />
 
-
+  <!-- Remove conflicting or unused packages -->
+  <remove-project name="android_hardware_qcom_audio" />
+  
   <!-- Device tree repos -->
   <project path="device/google/taimen/" name="device_google_taimen" remote="bravesoul" />
   <project path="device/google/walleye/" name="device_google_walleye" remote="bravesoul" />
@@ -21,9 +23,6 @@
   <!-- Pixel packages repos -->
   <project path="packages/apps/ElmyraService/" name="android_packages_apps_ElmyraService" remote="bravesoul" />
   <project path="packages/apps/NowPlayingOverlay/" name="android_packages_apps_NowPlayingOverlay" remote="bravesoul" />
-
-  <!-- Remove conflicting or unused packages -->
-  <remove-project name="android_hardware_qcom_audio" />
 
   <!-- Dependencies repos -->
   <project path="hardware/qcom/audio/" name="hardware_qcom_audio" remote="bravesoul" />
