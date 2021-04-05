@@ -3,7 +3,11 @@
 
   <remote  name="bravesoul"
            fetch="https://github.com/bravesoul349"
-           revision="refs/heads/evo-elle" />
+           revision="refs/heads/havoc-11" />
+
+  <remote  name="bravesoul349"
+           fetch="https://github.com/bravesoul349"
+	   revision="refs/heads/main" />
 
   <!-- Remove conflicting or unused packages -->
   <remove-project name="android_hardware_qcom_audio" />
@@ -14,20 +18,20 @@
   <project path="device/google/wahoo/" name="device_google_wahoo" remote="bravesoul" />
 
   <!-- Kernel tree repos -->
-  <project path="kernel/google/wahoo/" name="kernel_google_wahoo" remote="bravesoul" />
+  <project path="kernel/google/wahoo/" name="kernel_google_wahoo" remote="bravesoul349" />
 
   <!-- Vendor tree repos -->
-  <project path="vendor/google/taimen/" name="vendor_google_taimen" remote="bravesoul" />
-  <project path="vendor/google/walleye/" name="vendor_google_walleye" remote="bravesoul" />
+  <project path="vendor/google/taimen/" name="vendor_google_taimen" remote="bravesoul349" />
+  <project path="vendor/google/walleye/" name="vendor_google_walleye" remote="bravesoul349" />
 
   <!-- Pixel packages repos -->
-  <project path="packages/apps/ElmyraService/" name="android_packages_apps_ElmyraService" remote="bravesoul" />
-  <project path="packages/apps/NowPlayingOverlay/" name="android_packages_apps_NowPlayingOverlay" remote="bravesoul" />
+  <project path="packages/apps/ElmyraService/" name="android_packages_apps_ElmyraService" remote="bravesoul349" />
+  <project path="packages/apps/NowPlayingOverlay/" name="android_packages_apps_NowPlayingOverlay" remote="bravesoul349" />
 
   <!-- Dependencies repos -->
-  <project path="hardware/qcom/audio/" name="hardware_qcom_audio" remote="bravesoul" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/arm64-gcc/" name="arm64-gcc" remote="bravesoul" />
-  <project path="hardware/qcom/msm8998/" name="hardware_qcom_msm8998" remote="bravesoul" />
+  <project path="hardware/qcom/audio/" name="hardware_qcom_audio" remote="bravesoul349" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/arm64-gcc/" name="arm64-gcc" remote="bravesoul349" />
+  <project path="hardware/qcom/msm8998/" name="hardware_qcom_msm8998" remote="bravesoul349" />
 
 
 </manifest>
