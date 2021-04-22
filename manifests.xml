@@ -21,8 +21,7 @@
   <project path="kernel/google/wahoo/" name="kernel_google_wahoo" remote="bravesoul349" />
 
   <!-- Vendor tree repos -->
-  <project path="vendor/google/taimen/" name="vendor_google_taimen" remote="bravesoul349" />
-  <project path="vendor/google/walleye/" name="vendor_google_walleye" remote="bravesoul349" />
+  <project path="vendor/google/" name="vendor_google" remote="bravesoul" />
 
   <!-- Pixel packages repos -->
   <project path="packages/apps/ElmyraService/" name="android_packages_apps_ElmyraService" remote="bravesoul349" />
